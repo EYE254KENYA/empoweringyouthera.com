@@ -1,0 +1,114 @@
+*{      
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    box-sizing: border-box;
+}
+body{
+    margin:0 auto;
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRoi6zyyBYFqq1Iyc_eaUKkOiu0Qg3KWrTacIljtYSIOTllDKln");
+  
+}
+.header{
+   background-color: rgb(255, 255, 255); 
+   text-align: center;
+   position: fixed;
+   left:0;
+   right:0;
+   top:0;
+}
+
+.header-title{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: rgb(64, 224, 208);
+}
+.header-title-africa{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    color:rgb(13, 14, 100);
+}
+
+main{
+    max-width:800px;
+    margin:10px auto 0;
+    background-color:white;
+    text-align: center;
+   
+}
+.contact_form{
+   margin:50px auto 0;
+   max-width:400px;
+   color:grey;
+   padding-bottom: 10px;
+
+}
+.labels{
+    padding-top:20px;
+    text-align: left;
+ }
+.input-field{
+   border: none;
+   border-bottom: 1px solid rgb(128, 128, 128);
+   width:100%;
+   padding-top:20px;  
+}
+textarea{
+   border:none;
+   border-bottom:1px solid rgb(128, 128, 128);
+   width:100%;
+}
+
+
+.circles{
+display: flex;
+justify-content: space-between;
+}
+.colored-circle-green{
+border-radius: 50%;
+border:1px solid rgb(64, 224, 208);
+background-color: rgb(64, 224, 208);
+width:20px;
+height:20px;
+}
+.colored-circle-blue{
+border-radius: 50%;
+border:1px solid rgb(37, 27, 95);
+background-color:  rgb(37, 27, 95);
+width:20px;
+height:20px;
+
+}
+.raimages{
+margin-top:60px;
+width:100%;  
+}
+.first-line{
+width: 10%;
+ border:3px solid rgb(7, 8, 82);
+ border-radius:5px;
+}
+.second-line{
+width: 10%;
+ border:3px solid turquoise;
+ border-radius:5px;
+}
+.third-line{
+width: 10%;
+ border:3px solid rgb(224, 228, 23);
+ border-radius:5px;
+}
+#submit{
+font-size:15px;
+color:rgb(255, 255, 255);
+background:rebeccapurple ;
+border:0px;
+border-radius:5px;
+width:100px;
+height:30px;  
+margin:30px; 
+}
+#submit:hover{
+font-size:20px;
+background-color:rgb(205, 133, 63);
+cursor: pointer;
+}
